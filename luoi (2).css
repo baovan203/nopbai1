@@ -1,0 +1,581 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box
+}
+.container{
+	width: 80%; margin: 0 auto
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container{
+	width: 90%; margin: 0 auto
+}
+.img-100{
+	 height: auto;
+align-content: center; width: 0 auto
+}
+.logo{
+	float: left;
+}
+
+.d-flex{
+	display: flex;
+}
+.justify-center{
+	justify-content: center
+}
+
+.justify-between{
+	justify-content: space-between
+}
+.justify-around{
+	justify-content: space-around
+}
+.align-item{
+	align-items: center;  
+}
+.container1{
+	width: 90%; margin: 0 auto
+}
+.h2{
+	padding-top: 2px; text-align: center; color: black;
+}
+/*trangtiep/
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+
+
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white; 
+}
+/*style natonal*/
+
+
+.header h1 {
+  font-size: 50px; 
+}
+.h1{
+	font-size: 70px; text-align: center;
+	text-transform: uppercase;
+	padding-top: 60px;
+	
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+.column {
+  float: left;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #0C0808;
+  text-align: center;
+  padding: 30px 50px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: darkgray;
+  color: black;
+}
+.img11{
+	align-items: center; display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 100px;
+ width: 1100px;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+ background-color: black; 
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+/* Fake image */
+.fakeimg t4 {
+  background-color: #aaa;
+  width: 100%;
+  padding: 0 auto;
+  color: black; 
+	text-align: center; 
+}
+.img2-100{
+	 display: block;
+  position: absolute;
+  width: 100%;
+  width: 1610px;
+  height: 200px;
+  object-fit: cover;
+  object-position:  -110px;
+}
+.t1{
+	font-size: 40px;
+	color: black
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: darkgray;
+  padding: 30px;
+  margin-top: 0px;
+	text-align: center;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Footer */
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.img1 header1 {
+	width: 100%; 
+}
+.fakeimg-100{
+	display: block;
+  position: absolute;
+  width: 0;
+  width: 558px;
+  height: 100px;
+  object-fit: cover;
+  object-position:  -110px;	
+}
+.img3-100{
+	 display: block;
+  position: absolute;
+  width: 100%;
+  width: 1610px;
+  height: 200px;
+  object-fit: cover;
+  object-position:  -110px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  padding: 10px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase; 
+}
+.grid-item:hover{
+	padding: 10px 20px;
+	border-radius: 40px 40px;
+	background-color: darkgray; color: white
+}
+/* The grid: Three equal columns that floats next to each other */
+.column img6 img7 img8 {
+  position: absolute;
+  float: left;
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}/* Danh sách sản phẩm */
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 50%; /* Mỗi sản phẩm chiếm 30% chiều rộng */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.product img:hover {
+    transform: scale(1.1); /* Hiệu ứng zoom cho hình ảnh */
+}
+
+.product-name {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.product-price {
+    color: #007BFF;
+    font-size: 1.2rem;
+}
+
+.buy-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buy-btn:hover {
+    background-color: #218838;
+    transform: scale(1.1); /* Nút "Mua Ngay" sẽ phóng to khi di chuột vào */
+}
+/* Danh sách sản phẩm */
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 50%; /* Mỗi sản phẩm chiếm 30% chiều rộng */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.product img:hover {
+    transform: scale(1.1); /* Hiệu ứng zoom cho hình ảnh */
+}
+
+.product-name {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.product-price {
+    color: #007BFF;
+    font-size: 1.2rem;
+}
+
+.buy-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buy-btn:hover {
+    background-color: #218838;
+    transform: scale(1.1); /* Nút "Mua Ngay" sẽ phóng to khi di chuột vào */
+}
+
+/* Cấu trúc Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section {
+    width: 43%;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #007BFF;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.social-media a {
+    margin-right: 15px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.footer-bottom p {
+    color: #bbb;
+}
+
+/* Cấu trúc Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section {
+    width: 33%;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #007BFF;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.social-media a {
+    margin-right: 15px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.footer-bottom p {
+    color: #bbb;
+}
+.lienhe{
+	text-align: center;
+	font-size: 260px;
+	z-index: 10px;
+	color: white;
+	width: 100%;
+	position: absolute;
+	top: 420px;
+	z-index: 100;
+}
+
+
+
+
+
+
